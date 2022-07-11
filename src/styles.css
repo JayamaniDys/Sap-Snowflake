@@ -1,0 +1,138 @@
+html,
+body {
+    background: #F8F9FAFF !important;
+
+}
+
+
+.image_logo {
+    position: relative;
+    border-radius: 0px;
+}
+
+.disys_logo {
+    width: max-content !important;
+    align-self: center;
+    border-radius: 5px;
+
+}
+
+.container_body {
+    position: absolute;
+    top: 205px;
+    left: 895px;
+    width: 444px;
+    height: 443px;
+    background: #F8F9FAFF;
+    border-radius: 12px;
+    box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f;
+}
+.display_logo_first {
+    background: #F8F9FAFF;
+    border-radius: 12px;
+    box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f;
+}
+
+.col-lg-5 {
+    flex: 0 0 41.666667%;
+    max-width: 40.566667% !important;
+    border-radius: 1em !important;
+}
+.card_sigin {
+    background: #F8F9FAFF !important;
+    position: relative !important;
+    width: 100% !important;
+    border-radius: 1em !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.card-body {
+    background: #F8F9FAFF;
+}
+
+.card {
+    transition: 0.3s;
+    width: 100%;
+    background-color: #F8F9FAFF !important;
+}
+
+.textbox input {
+    width: 395px;
+    height: 45px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-family: Public Sans;
+    font-size: 14px;
+    background: #FFFFFFFF;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #9095A0FF;
+    outline: none;
+}
+
+.userid {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.sigin_priary {
+    background-color: #1c3364 !important;
+}
+/* hover */
+.textbox input:hover {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #6E7787FF;
+}
+
+/* focused */
+.textbox input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #9095A0FF;
+}
+
+/* disabled */
+.textbox input:disabled {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #9095A0FF;
+}
+
+.textbox :disabled+.icon,
+.textbox :disabled+.icon+.icon {
+    fill: #171A1FFF;
+}
+
+/* focused */
+.textbox input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #9095A0FF;
+
+}
+
+
+.textbox i {
+    position: relative;
+    left: -1px;
+    width: 40px;
+    top: -36px;
+    padding: 0px 0px;
+    color: #1c3364;
+    transition: 0.3s;
+}
+.textbox :disabled+.icon,
+.textbox :disabled+.icon+.icon {
+    fill: #171A1FFF;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
